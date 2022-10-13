@@ -12,3 +12,6 @@ PlayerSection:NewSlider("Jumppower", "makes u jump more high", 350, 50, function
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+PlayerSection:NewButton("Ctrl click to tp", "Ctrl click to tp", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/j34aCA9r'))()
+end)
